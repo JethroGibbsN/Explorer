@@ -6,7 +6,7 @@ Our idea with Explorer was to make education immersive. The collaborative spirit
 
 This application is a collection of different rooms. Each room has its own theme. Users can join the rooms and interact with each other. The user will have a Virtual 3D experience i.e. it will make the user feel like he/she is really in the room and interacting with different people.
 
-## How we built it 🛠️
+## 🛠️ How we built it
 
 We used Three.js, JavaScript, HTML, CSS, WebGL, Google Poly for the frontend website and we built our virtual rooms using the awesome Mozilla Hubs.
 
