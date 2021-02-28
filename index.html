@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/swm5clh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/swm5clh.css" />
     <title>3D Class</title>
     <!-- Import the component -->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script type='stylesheet' href='styles.css'> </script>
-    <meta name="description" content="An infinite circular gallery using WebGL with OGL and GLSL Shaders." />
-    <meta name="keywords" content="javascript, webgl, gallery, shaders, glsl, inspiration, web design" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script type="stylesheet" href="styles.css"></script>
+    <meta
+      name="description"
+      content="An infinite circular gallery using WebGL with OGL and GLSL Shaders."
+    />
+    <meta
+      name="keywords"
+      content="javascript, webgl, gallery, shaders, glsl, inspiration, web design"
+    />
     <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://use.typekit.net/zvj1jsw.css">
-    
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/zvj1jsw.css" />
   </head>
- <body>
+  <body>
     <nav>
-      <a><button class='title'>About </button></a> 
-       <a><img class='logo' src='img/logo.png' /></a> 
-      <a href='./webGL/room.html'><button  class='title'>Rooms</button></a> 
+      <a><button class="title">About</button></a>
+      <a><img class="logo" src="img/logo.png" /></a>
+      <a href="./webGL/room.html"><button class="title">Rooms</button></a>
     </nav>
-   
-    <!-- Use it like any other HTML element -->
-     <div class="hero">
-       <div>
-        <img class="nav-title" src='img/Explorer.png'/>
-        <p class="title">A new apporach to virtual learning </p>
-       </div>
-        <article> 
-                <model-viewer src="model1.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
-        </article>
-      </div>
-      <img class=' about' src='img/about.png'/> 
 
-     <p class='title'>Educate yourself on new topics <br>
-by visiting those places</p>
-    <model-viewer class='dessert' src="scene1.gltf" alt="A 3D model of an astronaut" camera-controls></model-viewer>
+    <!-- Use it like any other HTML element -->
+    <div class="hero">
+      <div>
+        <img class="nav-title" src="img/Explorer.png" />
+        <p class="title">A new apporach to virtual learning</p>
+      </div>
+      <model-viewer
+        src="model1.gltf"
+        camera-orbit="100deg 55deg 5m"
+        alt="A 3D model"
+        auto-rotate
+        camera-controls
+      ></model-viewer>
+    </div>
+    <img class="about" src="img/about.png" />
+
+    <p class="title">
+      Educate yourself on new topics <br />
+      by visiting those places
+    </p>
+    <model-viewer
+      class="dessert"
+      src="scene1.gltf"
+      alt="A 3D model"
+      camera-controls
+    ></model-viewer>
 
     <main>
       <div class="frame">
-        <div class="frame__title-wrap">
-        </div>
+        <div class="frame__title-wrap"></div>
       </div>
     </main>
- </body>
+  </body>
 </html>

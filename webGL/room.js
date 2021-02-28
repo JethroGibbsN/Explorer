@@ -3468,10 +3468,7 @@
             (this.renderer = new x()),
               (this.gl = this.renderer.gl),
               this.gl.clearColor(
-                0.79607843137,
-                0.79215686274,
-                0.74117647058,
-                1
+                0,0.04313725490196078431372549019608,0.22352941176470588235294117647059,1
               ),
               document.body.appendChild(this.gl.canvas);
           }
@@ -3601,7 +3598,7 @@
                               fragment: e,
                               vertex: i,
                               uniforms: {
-                                uColor: { value: new vt("#545050") },
+                                uColor: { value: new vt("#E0FF77") },
                                 tMap: { value: t },
                               },
                             }));
@@ -3669,7 +3666,7 @@
                                 fragment: e,
                                 vertex: i,
                                 uniforms: {
-                                  uColor: { value: new vt("#545050") },
+                                  uColor: { value: new vt("#E0FF77") },
                                   tMap: { value: t },
                                 },
                               }));
@@ -3796,7 +3793,7 @@
                       "#define GLSLIFY 1\nattribute vec3 position;\nattribute vec3 normal;\n\nuniform mat4 modelViewMatrix;\nuniform mat4 projectionMatrix;\nuniform mat3 normalMatrix;\n\nvoid main() {\n  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}\n\n",
                     fragment:
                       "precision highp float;\n#define GLSLIFY 1\n\nuniform float uAlpha;\nuniform vec3 uColor;\n\nvoid main() {\n  gl_FragColor.rgb = uColor;\n  gl_FragColor.a = 1.0;\n}\n",
-                    uniforms: { uColor: { value: new vt("#c4c3b6") } },
+                    uniforms: { uColor: { value: new vt("#132362") } },
                     transparent: !0,
                   });
                 this.meshes = [];
