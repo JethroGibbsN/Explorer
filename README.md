@@ -24,4 +24,4 @@ We learned a lot of stuff about the 3D experience with Three.js and Mozilla Hubs
 
 ## 🚀 What's next for Explorer
 
-Obviously, as an MVP, we concentrated on getting things to work. As for our next steps, we expect to fully support community-supported rooms and hope to integrate an incentive system to encourage virtual learning. We also plan to host holiday-themed events around the year to keep things interesting! :D
+Obviously, as an MVP, we concentrated on getting things to work. As for our next steps, we expect to fully support community-supported rooms and hope to integrate an incentive system to encourage virtual learning. We also plan on hosting holiday-themed events around the year to keep things interesting! :D
